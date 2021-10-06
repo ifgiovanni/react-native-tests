@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "436054556008",
+    "project_id": "duck-2b860",
+    "storage_bucket": "duck-2b860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436054556008:android:9f8b21f950ebf1d9ff6add",
+        "android_client_info": {
+          "package_name": "com.ifgiovanni.duck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436054556008-t199h1b0s6t3qfu63b4a37ek4uaecp70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcxwuXknzz2p88OjJnkc9m_mADKmQ0w0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436054556008-t199h1b0s6t3qfu63b4a37ek4uaecp70.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "436054556008-ogsophqeh1nfk885umcc2t6ku07vmth3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ifgiovanni.duck"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

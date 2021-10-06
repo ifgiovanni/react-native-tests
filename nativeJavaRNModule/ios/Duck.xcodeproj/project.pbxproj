@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* nativeJavaRNModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nativeJavaRNModuleTests.m */; };
+		00E356F31AD99517003FC87E /* DuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DuckTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5E7F32BEFEF7A1D894FF3659 /* libPods-nativeJavaRNModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEBF76880AC8228E6073C36 /* libPods-nativeJavaRNModule.a */; };
-		642A225D8E299B5496ED71A6 /* libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D9B06B2C6801B702F70499 /* libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a */; };
+		5E7F32BEFEF7A1D894FF3659 /* libPods-Duck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEBF76880AC8228E6073C36 /* libPods-Duck.a */; };
+		642A225D8E299B5496ED71A6 /* libPods-Duck-DuckTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D9B06B2C6801B702F70499 /* libPods-Duck-DuckTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = nativeJavaRNModule;
+			remoteInfo = Duck;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* nativeJavaRNModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nativeJavaRNModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* nativeJavaRNModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nativeJavaRNModuleTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* nativeJavaRNModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativeJavaRNModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = nativeJavaRNModule/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = nativeJavaRNModule/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nativeJavaRNModule/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nativeJavaRNModule/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nativeJavaRNModule/main.m; sourceTree = "<group>"; };
-		6C32BDE0BC9D5F2CB61349C0 /* Pods-nativeJavaRNModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeJavaRNModule.debug.xcconfig"; path = "Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nativeJavaRNModule/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A9D7516C0BD75824C9CB52D0 /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeJavaRNModule-nativeJavaRNModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACEBF76880AC8228E6073C36 /* libPods-nativeJavaRNModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nativeJavaRNModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBA87DD202F840F27A254AE8 /* Pods-nativeJavaRNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeJavaRNModule.release.xcconfig"; path = "Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule.release.xcconfig"; sourceTree = "<group>"; };
-		C5D9B06B2C6801B702F70499 /* libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D073804874D136EC1FDEAF8E /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeJavaRNModule-nativeJavaRNModuleTests.release.xcconfig"; path = "Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Duck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Duck/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Duck/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Duck/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Duck/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Duck/main.m; sourceTree = "<group>"; };
+		6C32BDE0BC9D5F2CB61349C0 /* Pods-Duck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duck.debug.xcconfig"; path = "Target Support Files/Pods-Duck/Pods-Duck.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Duck/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9D7516C0BD75824C9CB52D0 /* Pods-Duck-DuckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duck-DuckTests.debug.xcconfig"; path = "Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACEBF76880AC8228E6073C36 /* libPods-Duck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Duck.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA87DD202F840F27A254AE8 /* Pods-Duck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duck.release.xcconfig"; path = "Target Support Files/Pods-Duck/Pods-Duck.release.xcconfig"; sourceTree = "<group>"; };
+		C5D9B06B2C6801B702F70499 /* libPods-Duck-DuckTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Duck-DuckTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D073804874D136EC1FDEAF8E /* Pods-Duck-DuckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duck-DuckTests.release.xcconfig"; path = "Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642A225D8E299B5496ED71A6 /* libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a in Frameworks */,
+				642A225D8E299B5496ED71A6 /* libPods-Duck-DuckTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7F32BEFEF7A1D894FF3659 /* libPods-nativeJavaRNModule.a in Frameworks */,
+				5E7F32BEFEF7A1D894FF3659 /* libPods-Duck.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* nativeJavaRNModuleTests */ = {
+		00E356EF1AD99517003FC87E /* DuckTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* nativeJavaRNModuleTests.m */,
+				00E356F21AD99517003FC87E /* DuckTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = nativeJavaRNModuleTests;
+			path = DuckTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* nativeJavaRNModule */ = {
+		13B07FAE1A68108700A75B9A /* Duck */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = nativeJavaRNModule;
+			name = Duck;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ACEBF76880AC8228E6073C36 /* libPods-nativeJavaRNModule.a */,
-				C5D9B06B2C6801B702F70499 /* libPods-nativeJavaRNModule-nativeJavaRNModuleTests.a */,
+				ACEBF76880AC8228E6073C36 /* libPods-Duck.a */,
+				C5D9B06B2C6801B702F70499 /* libPods-Duck-DuckTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* nativeJavaRNModule */,
+				13B07FAE1A68108700A75B9A /* Duck */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* nativeJavaRNModuleTests */,
+				00E356EF1AD99517003FC87E /* DuckTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E15855CA8FA1BB22AFEF2837 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* nativeJavaRNModule.app */,
-				00E356EE1AD99517003FC87E /* nativeJavaRNModuleTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Duck.app */,
+				00E356EE1AD99517003FC87E /* DuckTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		E15855CA8FA1BB22AFEF2837 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C32BDE0BC9D5F2CB61349C0 /* Pods-nativeJavaRNModule.debug.xcconfig */,
-				BBA87DD202F840F27A254AE8 /* Pods-nativeJavaRNModule.release.xcconfig */,
-				A9D7516C0BD75824C9CB52D0 /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.debug.xcconfig */,
-				D073804874D136EC1FDEAF8E /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.release.xcconfig */,
+				6C32BDE0BC9D5F2CB61349C0 /* Pods-Duck.debug.xcconfig */,
+				BBA87DD202F840F27A254AE8 /* Pods-Duck.release.xcconfig */,
+				A9D7516C0BD75824C9CB52D0 /* Pods-Duck-DuckTests.debug.xcconfig */,
+				D073804874D136EC1FDEAF8E /* Pods-Duck-DuckTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* nativeJavaRNModuleTests */ = {
+		00E356ED1AD99517003FC87E /* DuckTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nativeJavaRNModuleTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DuckTests" */;
 			buildPhases = (
 				1010F7FB6BF73AB5FCBE4D3E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = nativeJavaRNModuleTests;
-			productName = nativeJavaRNModuleTests;
-			productReference = 00E356EE1AD99517003FC87E /* nativeJavaRNModuleTests.xctest */;
+			name = DuckTests;
+			productName = DuckTests;
+			productReference = 00E356EE1AD99517003FC87E /* DuckTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* nativeJavaRNModule */ = {
+		13B07F861A680F5B00A75B9A /* Duck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nativeJavaRNModule" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Duck" */;
 			buildPhases = (
 				574B8CBB4587A7D0F2A2D32E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = nativeJavaRNModule;
-			productName = nativeJavaRNModule;
-			productReference = 13B07F961A680F5B00A75B9A /* nativeJavaRNModule.app */;
+			name = Duck;
+			productName = Duck;
+			productReference = 13B07F961A680F5B00A75B9A /* Duck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nativeJavaRNModule" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Duck" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* nativeJavaRNModule */,
-				00E356ED1AD99517003FC87E /* nativeJavaRNModuleTests */,
+				13B07F861A680F5B00A75B9A /* Duck */,
+				00E356ED1AD99517003FC87E /* DuckTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1010F7FB6BF73AB5FCBE4D3E /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Duck-DuckTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule-nativeJavaRNModuleTests/Pods-nativeJavaRNModule-nativeJavaRNModuleTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duck-DuckTests/Pods-Duck-DuckTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		52732684C59947AD4D03D04B /* [CP] Embed Pods Frameworks */ = {
@@ -327,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		574B8CBB4587A7D0F2A2D32E /* [CP] Check Pods Manifest.lock */ = {
@@ -353,7 +353,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nativeJavaRNModule-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Duck-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeJavaRNModule/Pods-nativeJavaRNModule-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duck/Pods-Duck-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* nativeJavaRNModuleTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DuckTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* nativeJavaRNModule */;
+			target = 13B07F861A680F5B00A75B9A /* Duck */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9D7516C0BD75824C9CB52D0 /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.debug.xcconfig */;
+			baseConfigurationReference = A9D7516C0BD75824C9CB52D0 /* Pods-Duck-DuckTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = nativeJavaRNModuleTests/Info.plist;
+				INFOPLIST_FILE = DuckTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeJavaRNModule.app/nativeJavaRNModule";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck.app/Duck";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D073804874D136EC1FDEAF8E /* Pods-nativeJavaRNModule-nativeJavaRNModuleTests.release.xcconfig */;
+			baseConfigurationReference = D073804874D136EC1FDEAF8E /* Pods-Duck-DuckTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = nativeJavaRNModuleTests/Info.plist;
+				INFOPLIST_FILE = DuckTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeJavaRNModule.app/nativeJavaRNModule";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck.app/Duck";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C32BDE0BC9D5F2CB61349C0 /* Pods-nativeJavaRNModule.debug.xcconfig */;
+			baseConfigurationReference = 6C32BDE0BC9D5F2CB61349C0 /* Pods-Duck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = nativeJavaRNModule/Info.plist;
+				INFOPLIST_FILE = Duck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = nativeJavaRNModule;
+				PRODUCT_NAME = Duck;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA87DD202F840F27A254AE8 /* Pods-nativeJavaRNModule.release.xcconfig */;
+			baseConfigurationReference = BBA87DD202F840F27A254AE8 /* Pods-Duck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = nativeJavaRNModule/Info.plist;
+				INFOPLIST_FILE = Duck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = nativeJavaRNModule;
+				PRODUCT_NAME = Duck;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -656,7 +656,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nativeJavaRNModuleTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DuckTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nativeJavaRNModule" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Duck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nativeJavaRNModule" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Duck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

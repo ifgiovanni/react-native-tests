@@ -1,10 +1,10 @@
-package com.nativejavarnmodule;
+package com.ifgiovanni.duck;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
-import com.nativejavarnmodule.HelloWorldModule;
+import com.ifgiovanni.duck.HelloWorldModule;
  
 import java.util.ArrayList;
 import java.util.Collections;
