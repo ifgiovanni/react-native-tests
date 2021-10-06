@@ -1,4 +1,4 @@
-package com.nativejavarnmodule;
+package com.ifgiovanni.duck;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
